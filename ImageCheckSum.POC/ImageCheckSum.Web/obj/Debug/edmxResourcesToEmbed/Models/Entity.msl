@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="POCModelStoreContainer" CdmEntityContainer="POCEntities">
+    <EntitySetMapping Name="UploadChecksums">
+      <EntityTypeMapping TypeName="POCModel.UploadChecksum">
+        <MappingFragment StoreEntitySet="UploadChecksum">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="filechecksum" ColumnName="filechecksum" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
